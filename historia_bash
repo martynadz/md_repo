@@ -1,0 +1,344 @@
+    1  sudo su
+    2  uname -a
+    3  lsb_releas -a
+    4  lsb_release -a
+    5  wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
+    6  bash Anaconda3-4.3.1-Linux-x86_64.sh
+    7  conda install -c conda-forge pyspark
+    8  sudo add-apt-repository ppa:webupd8team/java
+    9  sudo apt-get update
+   10  sudo apt-get install oracle-java8-installer
+   11  conda install -c conda-forge pyspark
+   12  conda --version
+   13  export PATH="/home/martyna/anaconda3/bin"
+   14  cinda --version
+   15  conda --version
+   16  conda install -c conda-forge pyspark
+   17  cd into "/home/pycharm/bin"
+   18  into "/home/pycharm/bin"
+   19  ./pycharm.sh
+   20  type: ./pycharm.sh
+   21  into "/home/pycharm/bin/pycharm.sh"
+   22  /home/pycharm/bin
+   23  getdit /home/pycharm/bin/pycharm.sh
+   24  gedit /home/pycharm/bin/pycharm.sh
+   25  sudo add-apt-repository ppa:mystic-mirage/pycharm
+   26  /root
+   27  sudo add-apt-repository ppa:mystic-mirage/pycharm
+   28  sudo apt-get update
+   29  sudo apt-get install pycharm-community
+   30  sudo snap install pycharm-community --classic
+   31  sudo apt-get install python3-distutils
+   32  jupyter notebook list
+   33  jupyter notebook
+   34  /home/martyna/anaconda3/bin
+   35  jupyter notebook
+   36  cd /home/martyna/anaconda3/bin
+   37  jupyter notebook
+   38  /anaconda3/bin/jupyter-notebook
+   39  /home/martyna/anaconda3/bin/jupyter-notebook
+   40  python
+   41  pwd
+   42  ls
+   43  cd Desktop/
+   44  cd Pulpit/
+   45  cd /
+   46  cd /home/martyna/
+   47  cd /
+   48  ls
+   49  cd /bin
+   50  ls
+   51  cd /
+   52  pwd
+   53  ls
+   54  cd bin/
+   55  cd bin/^C
+   56  cd /
+   57  cd bin
+   58  ls
+   59  cd ..
+   60  ls
+   61  cd bin
+   62  cd ..
+   63  cd sbin
+   64  cd /
+   65  ls
+   66  cd ..
+   67  cd tmp
+   68  mkdir katalog1
+   69  cd katalog1
+   70  mkdir katalog2
+   71  cd katalog2
+   72  ls -a
+   73  ls -al
+   74  cd ..
+   75  cd .
+   76  ls  -a
+   77  ls -al
+   78  ls -l
+   79  man ls
+   80  touch .ukryty
+   81  ls
+   82  ls -a
+   83  rm .ukryty
+   84  ls -a
+   85  cd katalog2
+   86  mkdir katalog3
+   87  man rm
+   88  rmdir katalog3
+   89  ls 
+   90  la -a
+   91  man touch
+   92  mkdir .ukryty_folder
+   93  ls
+   94  ls -a
+   95  touch plik_tekstowy.txt
+   96  ls
+   97  echo
+   98  man echo
+   99  echo "Tekst "
+  100  echo "tekst przeniesiony do pliku" > plik_tekstowy.txt
+  101  cat plik_tekstowy.txt
+  102  echo "tekst przeniesiony do pliku2" > plik_tekstowy.txt
+  103  cat plik_tekstowy.txt
+  104  echo "tekst przeniesiony do pliku3" >> plik_tekstowy.txt
+  105  cat plik_tekstowy.txt
+  106  echo "tekst przeniesiony do pliku4" >> plik_tekstowy.txt
+  107  cat plik_tekstowy.txt
+  108  echo "tekst przeniesiony do pliku4" >> plik_tekstowy.txt
+  109  head plik_tekstowy.txt
+  110  tail plik_tekstowy.txt
+  111  head -2 plik_tekstowy.txt
+  112  cat plik_tekstowy.txt | head
+  113  cat plik_tekstowy.txt >> plik_tekstowy2.txt
+  114  cat plik_tekstowy2.txt
+  115  e
+  116  cat plik_tekstowy2.txt | wc
+  117  wc -l
+  118  history
+  119  ls --help
+  120  cat plik_tekstowy2.txt | grep"plik4"
+  121  cat plik_tekstowy2.txt | grep "plik4"
+  122  cat plik_tekstowy2.txt | grep --color "plik4"
+  123  cat plik_tekstowy2.txt | grep --color plik4
+  124  cat plik_tekstowy2.txt | grep --color pliku4
+  125  man grep
+  126  cat plik_tekstowy2.txt | grep --color -i Pliku4
+  127  cat plik_tekstowy2.txt | grep --color -i tekst
+  128  cat plik_tekstowy2.txt | grep --color -i "tekst przeniesiony"
+  129  who
+  130  whoami
+  131  apt-get install
+  132  apt-get install postgres
+  133  cd /
+  134  apt-get install postgres
+  135  sudo apt-get install postgres
+  136  sudo apt-get search  postgres
+  137  sudo apt-cache search  postgres
+  138  sudo apt-get install postgresql-10
+  139  env
+  140  new terminal
+  141  env | grep -i user
+  142  echo $patch
+  143  echo $PWD
+  144  cd /home/tmp
+  145  ls
+  146  cd tmp
+  147  echo $PWD
+  148  echo $PATCH
+  149  echo $PATH
+  150  env
+  151  l
+  152  echo $PATH
+  153  a
+  154  env | grep -i anaconda
+  155  cd /
+  156  env | grep -i anaconda
+  157  conda list --show-channel-urls
+  158  ps-aux
+  159  ps -aux
+  160  conda info
+  161  cd home/martyna/anaconda3/bin
+  162  conda info
+  163  cd ..
+  164  conda info
+  165  cd bin
+  166  ./conda install -c conda-forge jupyterhub  
+  167  ps -aux | grep firefox
+  168  vim
+  169  cd /
+  170  vim
+  171  sudo apt install vim
+  172  vim
+  173  cd /home/martyna/anaconda3/bin
+  174  conda list --show-channel-urls
+  175  cd /home/martyna/anaconda3/bin/anaconda-client
+  176  pico
+  177  cd /
+  178  ls
+  179  cd tmp
+  180  mkdir nasze_dane
+  181  cd nasze_dane
+  182  touch imiona.txt
+  183  history
+  184  echo "Ola" >> imiona.txt
+  185  echo "Ala" >> imiona.txt
+  186  echo "Zosiala" >> imiona.txt
+  187  echo "Kamil" >> imiona.txt
+  188  echo "Jurek" >> imiona.txt
+  189  echo "Kazio" >> imiona.txt
+  190  echo "Adam" >> imiona.txt
+  191  cat imiona.txt
+  192  wc -l
+  193  cat imiona.txt | wc -l
+  194  cat imiona.txt | uniq
+  195  cat imiona.txt | wc -l
+  196  cat imiona.txt |uniq | wc -l
+  197  cd /
+  198  cd var/log/syslog
+  199  cd var/log/
+  200  cat  syslog
+  201  head -5  syslog
+  202  tail -5  syslog
+  203  cat  syslog | grep -i error
+  204  cat  syslog | grep -i --color error
+  205  cat  syslog | grep -i --color error | wc -l
+  206  grep -i error
+  207  echo $PWD
+  208  echo $PATH
+  209  ls -a
+  210  man grep
+  211  grep -i -f  error
+  212  man grep
+  213  cat  syslog | grep -i --color error | wc
+  214  cat  syslog | grep error | wc
+  215  man wc
+  216  cat  syslog | grep error | wc -m
+  217  cat  syslog | grep error | wc -w
+  218  man wc
+  219  man grep
+  220  cat  syslog | find error
+  221  cat  syslog | grep error
+  222  cat  syslog | grep error | wc -l
+  223  python
+  224  ping wp.pl
+  225  cd /
+  226  /home/pobrane
+  227  /home/downloads
+  228  ls
+  229  cd home
+  230  ls
+  231  cd martyna
+  232  ls
+  233  chmod +x Anaconda3-5.3.0-Linux-x86_64.sh
+  234  Anaconda3-5.3.0-Linux-x86_64.sh
+  235  chmod +x Anaconda3-5.3.0-Linux-x86_64.sh
+  236  /home
+  237  cd home
+  238  cd /
+  239  cd home
+  240  cd martyna 
+  241  cd /
+  242  cd home
+  243  ls
+  244  cd /martyna
+  245  cd /home/martyna
+  246  pwd
+  247  chmod +x Anaconda3-5.3.0-Linux-x86_64.sh
+  248  ls
+  249  chmod +x Anaconda3-5.3.0-Linux-x86_64.sh
+  250  sudo ./anaconda3/
+  251  sudo ./anaconda3/Anaconda3-5.3.0-Linux-x86_64.sh
+  252  sudo ./Anaconda3-5.3.0-Linux-x86_64.sh
+  253  -u
+  254  sudo ./Anaconda3-5.3.0-Linux-x86_64.sh
+  255  vim /etc/apt/sources.list
+  256  sudo vim /etc/apt/sources.list
+  257  sudo cp /etc/apt/sources.list ~/sources_bck
+  258  sudo vim /etc/apt/sources.list
+  259  sudo ./Anaconda3-5.3.0-Linux-x86_64.sh
+  260  sudo ./Anaconda3-5.3.0-Linux-x86_64.sh -u
+  261  PATH
+  262  $PATH
+  263  python
+  264  home/martyna/anaconda3/python
+  265  python 3.6.0
+  266  python
+  267  ls
+  268  history 
+  269  ls
+  270  cd anaconda3/
+  271  ls
+  272  cd bin/
+  273  pwd
+  274  vim /home/.bashrc
+  275  vim ~/.bashrc
+  276  cd ~/
+  277  pwd
+  278  mkdir code
+  279  cd code
+  280  mkdir md_repo
+  281  cd md_repo
+  282  echo "# md_repo" >> README.md
+  283  git init
+  284  sudo apt install git
+  285  git init
+  286  git status
+  287  touch .gitignore
+  288  nano .gitignore
+  289  cat .gitignore
+  290  git status
+  291  nano .gitignore
+  292  git status
+  293  nano .gitignore
+  294  git status
+  295  nano .gitignore
+  296  ls
+  297  git status
+  298  ls -a
+  299  nano .gitignore
+  300  git status
+  301  git commit -m "Dodałam plik .gitignore który nie działa :("
+  302  git status
+  303  git push origin master
+  304  git status
+  305  git commit -m "first commit"drugi commit
+  306  git commit -m "drugi commit"
+  307  git config --list
+  308  git remote add origin https://github.com/martynadz/md_repo.git
+  309  git push -u origin master
+  310  git status
+  311* 
+  312  git commit -m "drugi commit"
+  313  git push -u origin master
+  314  nano .gitignore
+  315  git status
+  316  nano .gitignore
+  317  ls
+  318  ls -a
+  319  cat .gitignore
+  320  git status
+  321  git add .gitignore
+  322  git commit -m "zmiana gitignore"
+  323  git push -u origin master
+  324  git status
+  325  git diff
+  326  git add.
+  327  git add .
+  328  git commit -m "Nowy skrypt"
+  329  git push -u origin master
+  330  git diff
+  331  git add .
+  332  git commit -m "Nowy skrypt"
+  333  git push -u origin master
+  334  git status
+  335  git add .
+  336  git commit -m "Pierwsze informacje o zmiennych tekstowych"
+  337  git push -u orgin master
+  338  git push -u origin master
+  339  git clone https://github.com/pazikkamil/sages_kurs_13102018
+  340  ls
+  341  git diff
+  342  git status
+  343  pwd
+  344  history > historia_bash

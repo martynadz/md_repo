@@ -1,0 +1,94 @@
+windows		vs	Linux:
+C:\		==	/
+Program files	==	/bin lub /sbin lub /opt
+
+Terminal Linux uwagi:
+-jeśli jesteś w nadrzędnym folderze to po cd nie musi być "/"
+-ukryte pliki z "." na początku
+
+Terminal Linux zmienne środowiskowe:
+-Zmienne środowiskowe możemy wykorzystać w kazdej z aplikacji, także w python
+echo $<nazwa zmiennej>		jak chcemy zobaczyć co zawiera zmienna środowiskowa 
+
+Terminal Linux komendy:
+pwd	print working directory	wywietla w jakim katalogu jestemy
+ls	list status		zawartosc folderu
+cd	change directory	idz do folderu
+cd .. 				wejdz jeden folder wyzej
+cd .				aktualny folder
+cntrl+C				gdy sie pomylimy, kończymy polecenie ^C i ono się nie wykona
+mkdir	make dir		stwórz katalog
+ls -a	all			wyświetlam wszystko także ukryte pliki i foldery
+ls -al	all in list		wyświetlam wszystko w liście
+ls -l	use long listing format			lista
+man ls	manual list status	informacje o komendach i ich opcjach. Szukamy wpisując "/" i tekst którego szukamy
+rm	remove			usuń plik
+rmdir	remove directory	usuń folder
+touch				tworzy plik
+echo				wyświetla tekst
+>				przekazuje do pliku nadpisując go!!
+>>				przekazuje do pliku dopisując!!
+echo "..." > plik_tekstowy.txt	przenosi tekst do pliku i zapisuje plik. Jeśli nie ma pliku to go stworzy
+echo "..." >> plik_tekstowy.txt	przenosi tekst do pliku do następnej linii i zapisuje plik
+cat				otwiera plik tekstowy
+head				wyświetla początek pliku
+tail				wyświetla koniec pliku
+head -2				wyświetla 2 pierwsze linie pliku
+|				przekazuje wynik do innego polecenia!!
+wc	world count		pokazuje ile jest linii i ile jest znaków, i ile jest bytów
+wc -l				pokazuje ile jest linii
+uniq				pokazuje unikalne wartości
+sort				pokazuje posortowane wiersze z pliku
+history				wyświetla wszystko co ostatnio zrobilismy
+cntrl+R				wyszukiwarka poleceń w historii (kilka razy naciskamy to przechodzimy po wszystkich poleceniach w historii zawierających dany znak)
+tab+tab				podpowiada możliwe polecenia (np. piszemy "e" i wciskamy tab+tab)
+--help				mówi jak używać polecenia np. ls --help
+grep				szuka w tekście np. cat plik.txt | grep --color pliku4 <- szuka słowa "pliku4" w pliku i je koloruje. Jeśli dodamy "-i" to zignoruje wielkość liter. tekst ze spacja w cudzysłowie
+whoami				jakiego mamy aktualnego użytkownika
+sudo				wykonywanie poleceń z wykonywaniem uprawnień administratorskich
+apt-cache search postgres	wyszukanie postgres'a w pakiecie dostępnych paczek
+apt-get install	postgresql-10	instalacja postgresql-10 w systemie
+env				pokazje wszystkie zmienne środowiskowe
+env | grep -i user		zmienne które zawierają w nazwie "user", lub mają w ścieżce "user"
+ps -aux				lista procesów
+kill <numer procesu>		zabija działający proces o wskazanym numerze
+ps -aux | grep firefox		wyszukanie w procesach firefoxa
+
+vim, pico, nano			edytory tekstu
+cntrl+d				wyjście
+
+
+
+GIT:
+bitbucket			darmowe prywatne repozytorium
+cd ~/				katalog domowy (home/martyna)
+
+/*echo "# md_repo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/martynadz/md_repo.git
+git push -u origin master*/
+
+git commit -m "first commit"	parametr -m komentarz do zmiany
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+git config --list		tak możemy sprawdzić co ustawiliśmy
+git status			gdzie jesteśmy, które pliki zmodyfikowalismy, na ktorych pracujemy
+git remote -v			sprawdzamy czy mamy jakiekolwiek repozytorium (możemy mieć inne repozytorium do "wypychania plików" (push) a inne do ściągania (fetch)
+touch .gitignore		plik do którego wpisujemy pliki których nie chcemy sledzić w git
+git diff			mówi co sie zmieniło, co doszło
+git clone https://github.com/pazikkamil/sages_kurs_13102018	klonuje zawartość czyjegoś repozytorium na mój laptop. trzeba pamiętać by odpalić to we właściwym folderze
+
+
+JUPYTER:
+markdown!!
+
+
+
+
+
+
+
+
+

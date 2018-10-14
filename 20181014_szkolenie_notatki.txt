@@ -18,9 +18,12 @@ python3 --version	wersja pythona3
 
 Python:
 
-
-
-
+w jupyter notebook jest klawiatura w której można wyszukać wszystkie skróty
+Esc+M	zmienia pole na markdown
+Esc+Y	zmienia pole na code
+Esc+D+D	usuwa pole
+Esc+A i Esc+B	dodaje pola przed i po polu zaznaczonym
+del <nazwa_zmiennej>	usuwanie zmiennej
 
 
 

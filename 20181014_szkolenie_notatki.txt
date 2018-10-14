@@ -1,0 +1,33 @@
+export PATH="/home/martyna/anaconda3/bin:$PATH"
+
+
+Ważne!! Na rozmowie o pracę trzeba znać różnice między python2 a python3
+
+
+GITHUB:
+https://github.com/python/cpython	można śledzić zmiany paczek python. Ludzie poprawiają pythona i piszą z czym mają problem
+
+
+Linux Terminal:
+grep *.txt					wyszuka wszystkie pliki .txt
+cntrl+C lub cntrl+D lub eqit() lub quit()	wychodzenie z programów 
+cntrl+z						nie wychodzi z pythona, tylko zatrzymuje, python cały czas działa
+python --version	wersja pythona
+python3 --version	wersja pythona3
+
+
+Python:
+
+
+
+
+
+
+
+
+
+
+
+
+
+

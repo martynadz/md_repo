@@ -24,7 +24,8 @@ Esc+Y	zmienia pole na code
 Esc+D+D	usuwa pole
 Esc+A i Esc+B	dodaje pola przed i po polu zaznaczonym
 del <nazwa_zmiennej>	usuwanie zmiennej
-
+<nazwa_zmiennej>.+tab	wyświetla wszystkie dostępne metody na tej zmiennej
+__<wyraz>__		pogrubienie w markdown
 
 
 

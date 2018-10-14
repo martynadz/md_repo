@@ -26,6 +26,8 @@ Esc+A i Esc+B	dodaje pola przed i po polu zaznaczonym
 del <nazwa_zmiennej>	usuwanie zmiennej
 <nazwa_zmiennej>.+tab	wyświetla wszystkie dostępne metody na tej zmiennej
 __<wyraz>__		pogrubienie w markdown
+grep -v	<wyraz>		wez wszystko nie zawierające <wyraz>
+grep -E <wyraz>		można w wyrazie korzystać z wyrażeń regularnych
 
 
 

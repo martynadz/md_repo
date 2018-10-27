@@ -1,5 +1,14 @@
-GITHUB
-
+GITHUB:
 Branch:
-	- master - gałąź gdzie mamy główny kod działający poprawnie
-	- dev
+	- master	- gałąź gdzie mamy główny kod działający poprawnie
+	- dev		- gałąź stworzona przez pracowników repozytorium (nazwa dowolna) gdzie bez zmieniania gałęzi master może zapisywać swoją pracę na github. Od tej gałęzi mogą odchodzić kolejne gałęzie. 
+
+LINUX:
+git branch			pokazuje na jakim branch'u jesteśmy
+git branch -a			pokazuje na jakim branch'u jesteśmy oraz pokazuje pozostałe branche (remotes/origin/... - słówko remotes oznacza, że mamy na razie w chmurze brancha, jeszcze jego zawartości nie ściągnęliśmy i nie przepieliśmy się na niego) 
+git checkout dev		zmiana brancha na "dev", w tym momencie pokazują nam się lokalnie pliki z branch dev. Przy przełączeniu brancha na inny, chowają nam się pliki z poprzedniego a pokazują z obecnego. Pliki nie aktualizują się w czasie rzeczywistym, trzeba zrobić pull'a.
+git checkout -b "glupoty1"	tworzy nowego brancha o nazwie glupoty1, lokalnie pod branch'em na którym obecnie działamy
+git remote -v			pokazuje na jakim repozytorium/hoście jesteśmy
+touch nazwa_pliku.txt		tworzenie pliku
+cntrl+shift+t			otwiera nową zakładkę w terminalu (nowy terminal)
+

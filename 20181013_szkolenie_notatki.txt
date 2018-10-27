@@ -54,7 +54,7 @@ ps -aux				lista procesów
 kill <numer procesu>		zabija działający proces o wskazanym numerze
 ps -aux | grep firefox		wyszukanie w procesach firefoxa
 
-vim, pico, nano			edytory tekstu
+vim (wyjście - :q), pico, nano			edytory tekstu
 cntrl+d				wyjście
 
 

@@ -1,0 +1,5 @@
+GITHUB
+
+Branch:
+	- master - gałąź gdzie mamy główny kod działający poprawnie
+	- dev

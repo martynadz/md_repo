@@ -11,4 +11,9 @@ git checkout -b "glupoty1"	tworzy nowego brancha o nazwie glupoty1, lokalnie pod
 git remote -v			pokazuje na jakim repozytorium/hoście jesteśmy
 touch nazwa_pliku.txt		tworzenie pliku
 cntrl+shift+t			otwiera nową zakładkę w terminalu (nowy terminal)
+git pull origin master		ściąga dane z repozytorium
+git stash			jeśli nie możesz zrobić git pull, bo robiłeś zmiany na plikach z repozytorium, ale ich nie zacommitowałeś, to git stash bierze pliki zmieniane z repozytorium i na chwilę wrzuca do lokalnego schowka, z którego po ściągnięciu zmian z repozytorium można je ponownie ściągnąć
+git stash log			tym poleceniem wyświetlamy co jest w schowku
+git stash appy <nazwa np. stash@{0}> ściąga ze schowka (działa też git stash pop) i robi merge. Problem gdy pliku ze schowka nie ma w repozytorium
+
 
